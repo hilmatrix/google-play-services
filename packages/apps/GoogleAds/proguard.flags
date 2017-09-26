@@ -1,0 +1,5 @@
+-keep class org.apache.http.** { *; }
+-keep class android.webkit.** { *; }
+-dontwarn org.apache.http.**
+-dontwarn android.webkit.**
+
